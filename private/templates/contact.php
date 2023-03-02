@@ -1,13 +1,3 @@
-<?php
-// formulaire de contact avec les champs suivants : nom, prénom, email, message
-//
-// 1. Créer un formulaire de contact avec les champs suivants : nom, prénom, email, message
-// 2. Vérifier que les champs ne sont pas vides
-// 3. Vérifier que l'email est valide
-// 4. Si tout est ok, afficher un message de succès
-// 5. Sinon, afficher un message d'erreur
-// 6. Si tout est ok, envoyer un email à l'adresse de contact
-?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
