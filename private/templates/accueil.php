@@ -17,55 +17,58 @@
         <p>Bienvenue sur notre e-commerce!</p>
     </div>
 
-    <div class="row">
-        <div class="col-6">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-6">
+                <img src="../../assets/images/shampoing-naturel.jpg" alt="accueilShampoing" width="100%">
+            </div>
+            <div class="col-6">
+                <h3>Nos shampoings</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nam quisquam quidem neque aperiam eaque quaerat est.
+                    Fugit dolorum odit libero suscipit tempore? At corporis corrupti cum sequi ipsam maiores.
+                </p>
+                <a href="#">En savoir plus !</a>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-6">
+                <h3>Nos produits 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nam quisquam quidem neque aperiam eaque quaerat est.
+                    Fugit dolorum odit libero suscipit tempore? At corporis corrupti cum sequi ipsam maiores.
+                </p>
+                <a href="#">En savoir plus !</a>
+            </div>
+            <div class="col-6">
             <img src="../../assets/images/shampoing-naturel.jpg" alt="accueilShampoing" width="100%">
+            </div>
         </div>
-        <div class="col-6">
-            <h3>Nos shampoings</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nam quisquam quidem neque aperiam eaque quaerat est.
-                Fugit dolorum odit libero suscipit tempore? At corporis corrupti cum sequi ipsam maiores.
-            </p>
-            <a href="#">En savoir plus !</a>
+    
+        <div class="row">
+            <div class="col-6">
+            <img src="../../assets/images/shampoing-naturel.jpg" alt="accueilShampoing" width="100%">
+            </div>
+            <div class="col-6">
+                <h3>Nos produits 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nam quisquam quidem neque aperiam eaque quaerat est.
+                    Fugit dolorum odit libero suscipit tempore? At corporis corrupti cum sequi ipsam maiores.
+                </p>
+                <a href="#">En savoir plus !</a>
+            </div>
         </div>
-    </div>
-
-    <div class="row">
-        <div class="col-6">
-            <h3>Nos produits 2</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nam quisquam quidem neque aperiam eaque quaerat est.
-                Fugit dolorum odit libero suscipit tempore? At corporis corrupti cum sequi ipsam maiores.
-            </p>
-            <a href="#">En savoir plus !</a>
-        </div>
-        <div class="col-6">
-        <img src="../../assets/images/shampoing-naturel.jpg" alt="accueilShampoing" width="100%">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-6">
-        <img src="../../assets/images/shampoing-naturel.jpg" alt="accueilShampoing" width="100%">
-        </div>
-        <div class="col-6">
-            <h3>Nos produits 3</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nam quisquam quidem neque aperiam eaque quaerat est.
-                Fugit dolorum odit libero suscipit tempore? At corporis corrupti cum sequi ipsam maiores.
-            </p>
-            <a href="#">En savoir plus !</a>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-6">
-            <h3>Nos produits 4 </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nam quisquam quidem neque aperiam eaque quaerat est.
-                Fugit dolorum odit libero suscipit tempore? At corporis corrupti cum sequi ipsam maiores.
-            </p>
-            <a href="#">En savoir plus !</a>
-        </div>
-        <div class="col-6">
-        <img src="../../assets/images/shampoing-naturel.jpg" alt="accueilShampoing" width="100%">
+    
+        <div class="row">
+            <div class="col-6">
+                <h3>Nos produits 4 </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nam quisquam quidem neque aperiam eaque quaerat est.
+                    Fugit dolorum odit libero suscipit tempore? At corporis corrupti cum sequi ipsam maiores.
+                </p>
+                <a href="#">En savoir plus !</a>
+            </div>
+            <div class="col-6">
+            <img src="../../assets/images/shampoing-naturel.jpg" alt="accueilShampoing" width="100%">
+            </div>
         </div>
     </div>
     <?php
