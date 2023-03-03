@@ -117,6 +117,15 @@ function getUserById($id)
     return $user;
 }
 
+function getUsers() 
+{
+    $db = dbConnect();
+    $req = $db->prepare('SELECT * FROM users');
+    $req->execute(array());
+    $users = $req->fetch();
+    return $users;
+}
+
 // function getProductsByPriceAndCategoryAndSearch($min, $max, $id, $search) 
 // {
 //     $db = dbConnect();
