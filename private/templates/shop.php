@@ -13,6 +13,20 @@
         include("includes/navbar.php");
     ?>
     <h1>Shop</h1>
+    <div class="product container">
+        <?php
+            foreach($products as $product) {
+                echo "<div class='product'>";
+                echo "<h2>" . $product['name'] . "</h2>";
+                echo "<p>" . $product['description'] . "</p>";
+                echo "<p>" . $product['price'] . "</p>";
+                echo "<a href='product.php?id=" . $product['id'] . "'>Voir le produit</a>";
+                echo "<a href='cart.php?id=" . $product['id'] . "'>Ajouter au panier</a>";
+                echo "</div>";}
+        ?>
+
+    </div>
+
     <?php
         include("includes/footer.php");
     ?>

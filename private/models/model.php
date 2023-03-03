@@ -1,5 +1,5 @@
 <?php
-
+// Connexion BDD
 function dbConnect() 
 {
     try {
@@ -13,7 +13,7 @@ function dbConnect()
         die('Erreur : ' . $e->getMessage());
     };
 }
-
+// Fonction pour récupérer les produits
 function getProducts() 
 {
     $db = dbConnect();
@@ -30,6 +30,7 @@ function getProduct($id)
     return $product;
 }
 
+// fonction pour récupérer les catégories
 function getCategories() 
 {
     $db = dbConnect();
@@ -46,6 +47,8 @@ function getCategory($id)
     return $category;
 }
 
+
+// fonction pour récupérer les produits par catégorie, recherche, prix, catégorie et recherche, prix et recherche, prix et catégorie,catégorie et recherche
 function getProductsByCategory($id) 
 {
     $db = dbConnect();
@@ -94,6 +97,26 @@ function getProductsByCategoryAndSearch($id, $search)
     return $req;
 }
 
+// fonction qui select la photo par son id
+function getPhotoById($id) 
+{
+    $db = dbConnect();
+    $req = $db->prepare('SELECT * FROM photos WHERE id = ?');
+    $req->execute(array($id));
+    $photo = $req->fetch();
+    return $photo;
+}
+
+// fonction pour récupérer les utilisateurs par id
+function getUserById($id) 
+{
+    $db = dbConnect();
+    $req = $db->prepare('SELECT * FROM users WHERE id = ?');
+    $req->execute(array($id));
+    $user = $req->fetch();
+    return $user;
+}
+
 // function getProductsByPriceAndCategoryAndSearch($min, $max, $id, $search) 
 // {
 //     $db = dbConnect();
@@ -126,6 +149,8 @@ function getProductsByCategoryAndSearch($id, $search)
 //     return $req;
 // }
 
+
+// fonction pour récupérer les évaluations
 function getRatings() 
 {
     $db = dbConnect();
@@ -142,6 +167,8 @@ function getRating($id)
     return $rating;
 }
 
+
+// fonction pour récupérer les commentaires
 function getComments() 
 {
     $db = dbConnect();
@@ -158,6 +185,7 @@ function getComment($id)
     return $comment;
 }
 
+// fonction pour récupérer les commentaires par produit
 function getCommentsByProduct($id) 
 {
     $db = dbConnect();
@@ -166,6 +194,7 @@ function getCommentsByProduct($id)
     return $req;
 }
 
+// fonction pour récupérer les commentaires par évaluation
 function getCommentsByRating($id) 
 {
     $db = dbConnect();

@@ -8,34 +8,27 @@
                 <div class="create">
                     <h3>Créer</h3>
                     <ul class="gap-3">
-                        <li><a href="createAdmin.php">Créer un admin</a></li>
-                        <li><a href="createProduct.php">Créer un produit</a></li>
-                        <li><a href="createProduct.php">Ajouter une image</a></li>
+                        <li><a href="addUser.php">Créer un admin</a></li>
+                        <li><a href="addProduct.php">Créer un produit</a></li>
+                        <li><a href="addPhoto.php">Ajouter une image</a></li>
                     </ul>
                 </div>
                 <div class="read">
                 <h3>Lire</h3>
                 <ul class="gap-3">
-                    <li><a href="readAdmin.php">Lire les admins</a></li>
-                    <li><a href="readProduct.php">Lire les produits</a></li>
-                    <li><a href="readImage.php">Lire les images</a></li>
+                    <li><a href="readUsers.php">Lire les admins</a></li>
+                    <li><a href="readProducts.php">Lire les produits</a></li>
+                    <li><a href="readPhotos.php">Lire les images</a></li>
                 </ul>
                 </div>
-                <div class="edit">
-                    <h3>Modifier</h3>
+                <div class="update">
+                    <h3>Gestion</h3>
                     <ul>
-                        <li><a href="editAdmin.php">Modifier un admin</a></li>
-                        <li><a href="editProduct.php">Modifier un produit</a></li>
-                        <li><a href="editImage.php">Modifier une image</a></li>
+                        <li><a href="updateUser.php">Modifier un admin</a></li>
+                        <li><a href="updateProduct.php">Modifier un produit</a></li>
+                        <li><a href="updatePhoto.php">Modifier une image</a></li>
                     </ul>
                 </div>
-                <div class="delete">
-                <h3>Supprimer</h3>
-                <ul class="gap-3">
-                    <li><a href="deleteAdmin.php">Supprimer un admin</a></li>
-                    <li><a href="deleteProduct.php">Supprimer un produit</a></li>
-                    <li><a href="deleteImage.php">Supprimer une image</a></li>
-                </ul>
                 </div>
             </ul>
         </div>

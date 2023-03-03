@@ -10,7 +10,7 @@
                     <a class="nav-link" href="../templates/accueil.php">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="shop.php">Shop</a>
+                    <a class="nav-link" href="../templates/shop.php">Shop</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../templates/connexion.php">Connexion</a>
