@@ -1,4 +1,5 @@
 <?php
+
 // fonction pour sécuriser les inputs
 function secureInput($input) 
 {
