@@ -140,3 +140,21 @@ function checkImage($image)
         return false;
     }
 }
+// fonction pour vérifier la size
+function checkSize($size) 
+{
+    if (preg_match("#^[0-9]+$#", $size)) {
+        return true;
+    } else {
+        return false;
+    }
+}
+// fonction pour vérifier les couleurs
+function checkColor($color) 
+{
+    if (preg_match("#^[a-zA-ZÀ-ÿ- ]+$#", $color)) {
+        return true;
+    } else {
+        return false;
+    }
+}
