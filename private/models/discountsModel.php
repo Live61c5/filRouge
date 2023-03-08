@@ -42,4 +42,4 @@ function deleteDiscount($id) {
     ]);
     return $result;
 }
-  
+

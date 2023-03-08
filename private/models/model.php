@@ -4,7 +4,7 @@ function dbConnect()
 {
     try {
         $db = new PDO(
-            "mysql:host=localhost;dbname=boutiqueDuCoiffeur;charset=utf8",
+            "mysql:host=localhost;dbname=filRouge;charset=utf8",
             "root",
             ""
         );
